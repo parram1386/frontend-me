@@ -1,0 +1,29 @@
+@media(min-width:600px){
+
+
+    .top_navbar{box-shadow: 0 0 50px rgb(0, 0, 0) !important;
+
+    }
+
+#top_actions_section{
+    display: flex !important;
+    align-items: center !important;
+
+}}
+ .users_list_item .users_list_arrow_icon{
+transition:all ease 200ms;
+} 
+
+.users_list_item.active .users_list_arrow_icon{
+    
+    transform: rotate(180deg);
+}
+
+.users_list_item.active , .users_list_item.active .collapsible-header{
+    
+ background-color: rgba(128 ,128 ,128) ;
+}
+table.highlight > tbody > tr:hover {
+    background-color: rgba(7, 73, 173, 0.486);
+  }
+  

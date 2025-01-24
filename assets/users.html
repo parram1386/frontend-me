@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my practice</title>
     <link rel="stylesheet" href="/assets/materialize/css/materialize.min.css">
-    <link rel="stylesheet" href="/assets/css/util.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/assets/css11/util.css">
+    <link rel="stylesheet" href="/css12/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
@@ -53,32 +53,160 @@
 
     <!-- content section - start -->
 
-    <section id="top_actions_section">
+    <section id="top_actions_section" class="row m-b-0 flex-m ">
 
         <!-- ad button  -->
-        <div class="p-r-10 p-l-10 p-t-15">
+        <div class="p-r-10 p-l-10 p-t-15 col s12 m3 l2">
             <button class="blue darken-3 rounded_pill waves-effect waves-light btn p-l-30 p-r-30 w-full flex-c">
                 <i class="material-icons m-r-5">add</i>
                 Add user
             </button>
         </div>
- <!-- search button  -->
- <div class="row">
-    <div class="input-field col s12">
-      <input id="search" type="text" class="validate">
-      <label for="search">
-        <i class="material-icons pos-relative top-7">search</i>
-        search</label>
-    </div>
-  </div>
+        <!-- search button  -->
+        <div class="row col s12 m6 l8 m-b-5">
+            <div class="input-field col s12">
+                <input id="search" type="text" class="validate">
+                <label for="search">
+                    <i class="material-icons pos-relative top-7">search</i>
+                    search</label>
+            </div>
+        </div>
+
+        <div class="col l2 hide-on-med-and-down">
+
+        </div>
+
 
     </section>
+
+
+    <section class="user_list_section">
+
+        <ul class="collapsible hide-on-med-and-up">
+            <li class="users_list_item">
+                <div class="collapsible-header">
+                    <i class="material-icons light-blue-text users_list_arrow_icon">arrow_drop_down_circle</i>
+                    parham
+                </div>
+                <div class="collapsible-body">
+                    <div class="p-all-5">
+                        <span class="f-bold">username:</span>
+                        <span>parham ramin</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Email:</span>
+                        <span>parham11@gmail.com</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Address:</span>
+                        <span>example:berlin,..</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Action:</span>
+                        <span><a href="#"><i class="material-icons">edit</i></a></span>
+                    </div>
+                </div>
+            </li>
+
+            <li class="users_list_item">
+                <div class="collapsible-header">
+                    <i class="material-icons light-blue-text users_list_arrow_icon">arrow_drop_down_circle</i>
+                    parham
+                </div>
+                <div class="collapsible-body">
+                    <div class="p-all-5">
+                        <span class="f-bold">username:</span>
+                        <span>parham ramin</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Email:</span>
+                        <span>parham11@gmail.com</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Address:</span>
+                        <span>example:berlin,..</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Action:</span>
+                        <span><a href="#"><i class="material-icons">edit</i></a></span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <div class="hide-on-med-and-down show-on-medium-and-up">
+
+            <table class="striped centered highlight container">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>name</th>
+                        <th>username</th>
+                        <th>email</th>
+                        <th>address</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>parham</td>
+                        <td>pprh14</td>
+                        <td>par****@gmail.com</td>
+                        <td>berlin,.....</td>
+                        <td>
+                            <i class="material-icons">
+                                edit
+                            </i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>parham</td>
+                        <td>pprh14</td>
+                        <td>par****@gmail.com</td>
+                        <td>berlin,.....</td>
+                        <td>
+                            <i class="material-icons">
+                                edit
+                            </i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>parham</td>
+                        <td>pprh14</td>
+                        <td>par****@gmail.com</td>
+                        <td>berlin,.....</td>
+                        <td>
+                            <i class="material-icons">
+                                edit
+                            </i>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
 
     <!-- content section - end -->
 
 
     <script src="/assets/materialize/js/materialize.min.js"></script>
     <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/user.js"></script>
 </body>
 
 </html>
