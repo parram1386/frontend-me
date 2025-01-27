@@ -1,4 +1,19 @@
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.collapsible');
     var instances = M.Collapsible.init(elems, {});
+  
+
+  const adduserbutton = document.getElementById('add_user_button')
+  adduserbutton.addEventListener('click', ()=>{
+    document.querySelector('.add_user_modal').classList.add('show')
+    document.querySelector('.add_user_modal_back').classList.remove('disnone')
+
+  });
+
+
+  document.querySelector('.add_user_modal_back').addEventListener('click', (e)=>{
+    document.querySelector('.add_user_modal').classList.remove('show')
+    e.target.classList.add('dis-none')
+ 
+   })
   });
