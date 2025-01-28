@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const adduserbutton = document.getElementById('add_user_button')
   adduserbutton.addEventListener('click', ()=>{
     document.querySelector('.add_user_modal').classList.add('show')
-    document.querySelector('.add_user_modal_back').classList.remove('disnone')
+    document.querySelector('.add_user_modal_back').classList.remove('dis-none')
 
   });
 
@@ -16,4 +16,5 @@ document.addEventListener('DOMContentLoaded', function() {
     e.target.classList.add('dis-none')
  
    })
+   
   });

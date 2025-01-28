@@ -8,24 +8,32 @@
     <link rel="stylesheet" href="/assets/css11/util.css">
     <link rel="stylesheet" href="/css12/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/materialize/css/materialize-rtl.css">
+    <link rel="icon" type="image/x-icon"  href="/assets/imagaes/logo.png">
 
 
 </head>
 
-<body>
+<body dir="rtl">
 
     <!-- navbar section - start -->
-    <nav class="blue darken-3">
+    
+    <nav class="blue darken-3 navbarsticky">
         <div class="nav-wrapper">
             <a href="#!" class=" hide-on-med-and-up fs-15 ">users managment</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class=" hide-on-med-and-down">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons ">menu</i></a>
+            
+            <ul class="hide-on-med-and-down dis-flex">
+                <li><a href="/assets/index.html">Home</a></li>
                 <li><a href="sass.html">Sass</a></li>
                 <li><a href="badges.html">Components</a></li>
                 <li><a href="collapsible.html">Javascript</a></li>
                 <li><a href="mobile.html">Mobile</a></li>
+                <li><a class="dis-flex" href="#">More<i class="material-icons m-l-5 ">arrow_drop_down</i></a></li>
             </ul>
+            
         </div>
+        
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
@@ -39,8 +47,8 @@
                 <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
             </div>
         </li>
-        <li><a href="#!"><i class="material-icons">insert_link</i>go to</a></li>
-        <li><a href="#!">Second Link</a></li>
+        <li><a href="#!"><i class="material-icons right m-r-0 sidevav-link-icon">insert_link</i>go to</a></li>
+        <li><a href="#!"><i class="material-icons right m-r-0 sidevav-link-icon">insert_link</i>Second Link</a></li>
         <li>
             <div class="divider"></div>
         </li>
@@ -205,11 +213,11 @@
             <div class="pagination_buttons">
                 <i
                     class="material-icons blue darken-2 m-l-5 m-r-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text rounded_pill">
-                    keyboard_arrow_left
+                    keyboard_arrow_right
                 </i>
                 <i
                     class="material-icons blue darken-2 m-l-5 m-r-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text rounded_pill">
-                    keyboard_arrow_right
+                    keyboard_arrow_left
                 </i>
             </div>
         </div>
@@ -217,7 +225,7 @@
     </section>
 
     <div class="add_user_modal_back dis-none"></div>
-    <div class="add_user_modal trans-0-1 container">
+    <div class="add_user_modal trans-0-3 container">
         <div class="row p-t-10 p-b-10 p-l-40 p-r-40 center-on-small-only">
             <h5>
                 <i class="material-icons m-r-10 m-l-10 pos-relative top-4">person-add</i>
@@ -252,7 +260,6 @@
 
         </div>
     </div>
-
 
 
 

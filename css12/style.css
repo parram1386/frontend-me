@@ -1,3 +1,21 @@
+@font-face {
+    font-family: "BYekan";
+    src: url("../assets/fonts/BYekan/BYekan-webfont.ttf") format("trutype"),
+         url("../assets/fonts/BYekan/BYekan-webfont.eot") format("eot"),
+         url("../assets/fonts/BYekan/BYekan-webfont.woff") format("woff");
+         font-weight: normal;
+         font-style: normal;
+}
+
+
+
+
+*{
+
+    direction: rtl;
+}
+
+
 @media(min-width:600px){
 
 
@@ -57,4 +75,12 @@ table.highlight > tbody > tr:hover {
    box-shadow: 0 0 10px blue;
     
     
+}
+.sidevav-link-icon{
+    margin:0 0 0 10px !important;
+}
+
+.navbarsticky{
+    position: sticky;
+    top:0;
 }
